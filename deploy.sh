@@ -11,5 +11,5 @@ read -p "请输入提交说明（默认: $default_msg）: " user_msg
 commit_msg="${user_msg:-$default_msg}"
 
 git commit -m "$commit_msg"
-git push origin main
+git push -f origin main
 hexo deploy
