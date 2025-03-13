@@ -4,6 +4,25 @@
   
   
   <entry>
+    <title>some share</title>
+    <link href="/2025/03/14/some-share/"/>
+    <url>/2025/03/14/some-share/</url>
+    
+    <content type="html"><![CDATA[<h2 id="主要软件"><a href="#主要软件" class="headerlink" title="主要软件"></a>主要软件</h2><h3 id="编程开发"><a href="#编程开发" class="headerlink" title="编程开发"></a>编程开发</h3><ul><li>VS code：编程主要是用VS code最多,支持各种插件以及语言，而且很轻量级，启动很快（比起pycharm写py来说我觉得快很多）,另外多个平台都可以用。而且ssh特别好用</li><li>CLion：主要用来写C++，也是Windows和Linux都可以用，jetbrains的这几个idle除了有一点点笨重之外，别的体验都超好，领那个学生认证就可以下载专业版的PyCharm，Clion</li><li>anaconda（or miniconda）: 配置Python虚拟环境还是anaconda稳定</li><li>VS2022:大型项目还得是VS</li><li>Git：版本控制工具，github和gitee都可以用，github的star数多，但是国内访问慢，gitee的访问快，但是star数少，所以可以两个一起用，github用来存一些开源项目，gitee用来存一些自己的项目</li><li>Jupyter Notebook：写Python代码的利器，可以写代码，也可以写markdown，还可以直接运行代码，方便调试</li></ul><h3 id="学习工作"><a href="#学习工作" class="headerlink" title="学习工作"></a>学习工作</h3><ul><li>ollama:大模型本地部署，用ollama+chatbox,ds或者是chatgpt以及其他一些大模型的本地部署都很方便。</li><li>zotero:文献管理，我用这个比较多，主要是用来管理我的论文，还有其他一些资料，然后可以加很多插件，翻译，大模型什么的，也能集成到wps或者是word里面。</li><li>Typora:写markdown的利器，可以实时预览，而且支持latex，很方便。</li><li>Notion:写笔记用</li><li>to do:任务清单</li></ul><h3 id="其他工具"><a href="#其他工具" class="headerlink" title="其他工具"></a>其他工具</h3><p>VMware pro17:虚拟机，可以用来装一些系统，比如Linux，Windows，MacOS等等<br>MobaXterm:ssh工具，可以连接远程服务器<br>everything:搜索工具，可以快速搜索文件,主要是通过各种通配符去匹配</p><h2 id="一些有用的网址"><a href="#一些有用的网址" class="headerlink" title="一些有用的网址"></a>一些有用的网址</h2><ul><li><a href="https://www.latexlive.com/">latex公式编辑</a></li><li><a href="https://www.autodl.com/console/instance/list">autodl服务器</a></li><li><a href="https://tableconvert.com/zh-cn/latex-generator">表格生成</a></li><li><a href="https://cn.overleaf.com/login">overleaf-latex编写</a></li><li><a href="https://scholar.google.com.hk/?hl=zh-CN">谷歌学术</a>-可能需要梯子</li><li><a href="https://netron.app/">神经网络可视化</a></li><li><a href="https://markdown.com.cn/cheat-sheet.html#%E6%80%BB%E8%A7%88">markdown语法速查</a></li><li><a href="https://www.ipaddress.com/">查站点ip</a></li><li><a href="http://www.ip33.com/dns.html">DNS解析</a></li><li><a href="https://pypi.tuna.tsinghua.edu.cn/simple">清华源镜像</a></li></ul>]]></content>
+    
+    
+    <categories>
+      
+      <category>经验分享</category>
+      
+    </categories>
+    
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>Hello World</title>
     <link href="/2025/03/13/hello-world/"/>
     <url>/2025/03/13/hello-world/</url>
