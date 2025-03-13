@@ -1,5 +1,10 @@
 ---
 title: {{ title }}
 date: {{ date }}
-tags:
+toc: true
+categories:
+comments: 'valine'
+math: false
+hide: false
+excerpt: "" 
 ---
