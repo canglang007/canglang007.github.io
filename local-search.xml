@@ -17,12 +17,18 @@
   
   
   <entry>
-    <title>test</title>
-    <link href="/2025/03/13/test/"/>
-    <url>/2025/03/13/test/</url>
+    <title>demo</title>
+    <link href="/2025/03/13/demo/"/>
+    <url>/2025/03/13/demo/</url>
     
-    <content type="html"><![CDATA[<p>测试一下！！</p>]]></content>
+    <content type="html"><![CDATA[<p>本博客为测试部分的博客 ，用于测试博客的显示效果。</p><p>该博客用hexo开发，主题是fluid，用github pages部署。</p><p>评论模块是用valine实现的，valinez的评论都是匿名评论且不需要登陆。也尝试了giscus，但是giscus的评论功能需要登陆github，比较麻烦，所以还是用了valine。不过已经设置了可选评论风格，感觉技术类文章就可以用 giscus了。</p><h2 id="测试图片"><a href="#测试图片" class="headerlink" title="测试图片"></a>测试图片</h2><p><img src="/../images/test.jpg" alt="图片"></p><h2 id="测试代码块"><a href="#测试代码块" class="headerlink" title="测试代码块"></a>测试代码块</h2><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs python"><span class="hljs-keyword">import</span> numpy <span class="hljs-keyword">as</span> np<br></code></pre></td></tr></table></figure><h2 id="测试数学公式"><a href="#测试数学公式" class="headerlink" title="测试数学公式"></a>测试数学公式</h2><p>$$<br>\sum_{i&#x3D;1}^{n}i^2 &#x3D; \frac{n(n+1)(2n+1)}{6}<br>$$</p><h2 id="测试引用"><a href="#测试引用" class="headerlink" title="测试引用"></a>测试引用</h2><blockquote><p>这是引用的内容</p></blockquote><h2 id="测试表格"><a href="#测试表格" class="headerlink" title="测试表格"></a>测试表格</h2><table><thead><tr><th>姓名</th><th>年龄</th><th>性别</th></tr></thead><tbody><tr><td>张三</td><td>18</td><td>男</td></tr><tr><td>李四</td><td>19</td><td>女</td></tr><tr><td>王五</td><td>20</td><td>男</td></tr><tr><td>赵六</td><td>21</td><td>女</td></tr></tbody></table><h2 id="测试链接"><a href="#测试链接" class="headerlink" title="测试链接"></a>测试链接</h2><p><a href="https://www.baidu.com/">百度</a></p><h2 id="测试列表"><a href="#测试列表" class="headerlink" title="测试列表"></a>测试列表</h2><ul><li>列表1</li><li>列表2</li><li>列表3</li></ul><h2 id="测试分割线"><a href="#测试分割线" class="headerlink" title="测试分割线"></a>测试分割线</h2><hr><h2 id="测试转义字符"><a href="#测试转义字符" class="headerlink" title="测试转义字符"></a>测试转义字符</h2><p><em>斜体</em></p><p><strong>粗体</strong></p><p><del>删除线</del></p>]]></content>
     
+    
+    <categories>
+      
+      <category>开发经验</category>
+      
+    </categories>
     
     
   </entry>
