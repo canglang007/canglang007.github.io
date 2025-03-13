@@ -104,3 +104,11 @@ deploy:
   type: git
   repo: https://github.com/canglang007/canglang007.github.io.git
   branch: main
+
+# # hexo-hide-posts
+# hide_posts:
+# # 可以改成其他你喜欢的名字
+#   enable: true
+#   filter: hidden
+# # 为隐藏的文章添加 noindex meta 标签，阻止搜索引擎收录
+#   noindex: true
