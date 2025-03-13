@@ -814,7 +814,7 @@ gitalk:
 # See: https://valine.js.org/
 valine:
   appId: o91y6NHowtRXsvvJNY46Qoap-gzGzoHsz
-  appKey: o91y6NHowtRXsvvJNY46Qoap-gzGzoHsz
+  appKey: pu0K2Pe0RMHy4E8ysFg2aJNi
   path: window.location.pathname
   placeholder: 请输入评论内容
   avatar: 'retro'
