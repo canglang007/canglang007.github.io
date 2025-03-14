@@ -13,7 +13,7 @@ index_img: ../images/test.jpg
 
 该博客用hexo开发，主题是fluid，用github pages部署。
 
-评论模块是用valine实现的，valinez的评论都是匿名评论且不需要登陆。也尝试了giscus，但是giscus的评论功能需要登陆github，比较麻烦，所以还是用了valine。不过已经设置了可选评论风格，感觉技术类文章就可以用 giscus了。
+评论模块是用valine实现的，valine的评论都是匿名评论且不需要登陆。也尝试了giscus，但是giscus的评论功能需要登陆github，比较麻烦，所以还是用了valine。不过已经设置了可选评论风格，感觉技术类文章就可以用 giscus了。补充，可能考虑用valine的改进版本waline。
 
 ## 测试图片
 

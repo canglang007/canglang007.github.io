@@ -826,9 +826,9 @@ valine:
   highlight: false
   recordIP: false
   serverURLs: ''
-  emojiCDN:
+  emojiCDN: 
   emojiMaps:
-  enableQQ: false
+  enableQQ: true
 
 # Waline
 # 从 Valine 衍生而来，额外增加了服务端和多种功能
