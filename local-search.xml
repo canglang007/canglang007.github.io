@@ -4,12 +4,18 @@
   
   
   <entry>
-    <title>Hello World</title>
-    <link href="/2025/03/13/hello-world/"/>
-    <url>/2025/03/13/hello-world/</url>
+    <title>some share</title>
+    <link href="/2025/03/14/some-share/"/>
+    <url>/2025/03/14/some-share/</url>
     
-    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><p>这是一个测试界面</p><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">$ hexo new <span class="hljs-string">&quot;My New Post&quot;</span><br></code></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">$ hexo server<br></code></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">$ hexo generate<br></code></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">$ hexo deploy<br></code></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
+    <content type="html"><![CDATA[<h2 id="主要软件"><a href="#主要软件" class="headerlink" title="主要软件"></a>主要软件</h2><h3 id="编程开发"><a href="#编程开发" class="headerlink" title="编程开发"></a>编程开发</h3><ul><li>VS code：编程主要是用VS code最多,支持各种插件以及语言，而且很轻量级，启动很快（比起pycharm写py来说我觉得快很多）,另外多个平台都可以用。而且ssh特别好用</li><li>CLion：主要用来写C++，也是Windows和Linux都可以用，jetbrains的这几个idle除了有一点点笨重之外，别的体验都超好，领那个学生认证就可以下载专业版的PyCharm，Clion</li><li>anaconda（or miniconda）: 配置Python虚拟环境还是anaconda稳定</li><li>VS2022:大型项目还得是VS</li><li>Git：版本控制工具，github和gitee都可以用，github的star数多，但是国内访问慢，gitee的访问快，但是star数少，所以可以两个一起用，github用来存一些开源项目，gitee用来存一些自己的项目</li><li>Jupyter Notebook：写Python代码的利器，可以写代码，也可以写markdown，还可以直接运行代码，方便调试</li></ul><h3 id="学习工作"><a href="#学习工作" class="headerlink" title="学习工作"></a>学习工作</h3><ul><li>ollama:大模型本地部署，用ollama+chatbox,ds或者是chatgpt以及其他一些大模型的本地部署都很方便。</li><li>zotero:文献管理，我用这个比较多，主要是用来管理我的论文，还有其他一些资料，然后可以加很多插件，翻译，大模型什么的，也能集成到wps或者是word里面。</li><li>Typora:写markdown的利器，可以实时预览，而且支持latex，很方便。</li><li>Notion:写笔记用</li><li>to do:任务清单</li></ul><h3 id="其他工具"><a href="#其他工具" class="headerlink" title="其他工具"></a>其他工具</h3><p>VMware pro17:虚拟机，可以用来装一些系统，比如Linux，Windows，MacOS等等<br>MobaXterm:ssh工具，可以连接远程服务器<br>everything:搜索工具，可以快速搜索文件,主要是通过各种通配符去匹配</p><h2 id="一些有用的网址"><a href="#一些有用的网址" class="headerlink" title="一些有用的网址"></a>一些有用的网址</h2><ul><li><a href="https://www.latexlive.com/">latex公式编辑</a></li><li><a href="https://www.autodl.com/console/instance/list">autodl服务器</a></li><li><a href="https://tableconvert.com/zh-cn/latex-generator">表格生成</a></li><li><a href="https://cn.overleaf.com/login">overleaf-latex编写</a></li><li><a href="https://scholar.google.com.hk/?hl=zh-CN">谷歌学术</a>-可能需要梯子</li><li><a href="https://netron.app/">神经网络可视化</a></li><li><a href="https://markdown.com.cn/cheat-sheet.html#%E6%80%BB%E8%A7%88">markdown语法速查</a></li><li><a href="https://www.ipaddress.com/">查站点ip</a></li><li><a href="http://www.ip33.com/dns.html">DNS解析</a></li><li><a href="https://pypi.tuna.tsinghua.edu.cn/simple">清华源镜像</a></li></ul>]]></content>
     
+    
+    <categories>
+      
+      <category>经验分享</category>
+      
+    </categories>
     
     
   </entry>
@@ -17,12 +23,18 @@
   
   
   <entry>
-    <title>test</title>
-    <link href="/2025/03/13/test/"/>
-    <url>/2025/03/13/test/</url>
+    <title>demo</title>
+    <link href="/2025/03/13/demo/"/>
+    <url>/2025/03/13/demo/</url>
     
-    <content type="html"><![CDATA[<p>测试一下！！</p>]]></content>
+    <content type="html"><![CDATA[<p>本博客为测试部分的博客 ，用于测试博客的显示效果。</p><p>该博客用hexo开发，主题是fluid，用github pages部署。</p><p>评论模块是用valine实现的，valine的评论都是匿名评论且不需要登陆。也尝试了giscus，但是giscus的评论功能需要登陆github，比较麻烦，所以还是用了valine。不过已经设置了可选评论风格，感觉技术类文章就可以用 giscus了。补充，可能考虑用valine的改进版本waline。</p><h2 id="测试图片"><a href="#测试图片" class="headerlink" title="测试图片"></a>测试图片</h2><p><img src="/../images/test.jpg" alt="图片"></p><h2 id="测试代码块"><a href="#测试代码块" class="headerlink" title="测试代码块"></a>测试代码块</h2><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs python"><span class="hljs-keyword">import</span> numpy <span class="hljs-keyword">as</span> np<br></code></pre></td></tr></table></figure><h2 id="测试数学公式"><a href="#测试数学公式" class="headerlink" title="测试数学公式"></a>测试数学公式</h2><p>$$<br>\sum_{i&#x3D;1}^{n}i^2 &#x3D; \frac{n(n+1)(2n+1)}{6}<br>$$</p><h2 id="测试引用"><a href="#测试引用" class="headerlink" title="测试引用"></a>测试引用</h2><blockquote><p>这是引用的内容</p></blockquote><h2 id="测试表格"><a href="#测试表格" class="headerlink" title="测试表格"></a>测试表格</h2><table><thead><tr><th>姓名</th><th>年龄</th><th>性别</th></tr></thead><tbody><tr><td>张三</td><td>18</td><td>男</td></tr><tr><td>李四</td><td>19</td><td>女</td></tr><tr><td>王五</td><td>20</td><td>男</td></tr><tr><td>赵六</td><td>21</td><td>女</td></tr></tbody></table><h2 id="测试链接"><a href="#测试链接" class="headerlink" title="测试链接"></a>测试链接</h2><p><a href="https://www.baidu.com/">百度</a></p><h2 id="测试列表"><a href="#测试列表" class="headerlink" title="测试列表"></a>测试列表</h2><ul><li>列表1</li><li>列表2</li><li>列表3</li></ul><h2 id="测试分割线"><a href="#测试分割线" class="headerlink" title="测试分割线"></a>测试分割线</h2><hr><h2 id="测试转义字符"><a href="#测试转义字符" class="headerlink" title="测试转义字符"></a>测试转义字符</h2><p><em>斜体</em></p><p><strong>粗体</strong></p><p><del>删除线</del></p>]]></content>
     
+    
+    <categories>
+      
+      <category>开发经验</category>
+      
+    </categories>
     
     
   </entry>
