@@ -19,23 +19,21 @@
   <meta name="author" content="Zhuoming Liu">
   <meta name="keywords" content="">
   
-    <meta name="description" content="这是一个用于测试的的demo">
+    <meta name="description" content="因为本人在今天写博客的时候不慎将远程的东西全部覆盖到本地了，然后本地有一些写在gitignore中的文件以及文件夹就都没了，吓了一跳，于是乎就想着怎么把本地版本回退到正常的版本，于是乎就找到了git相关的一些命令。">
 <meta property="og:type" content="article">
-<meta property="og:title" content="demo">
-<meta property="og:url" content="http://example.com/2025/03/13/demo/index.html">
+<meta property="og:title" content="git本地版本回退">
+<meta property="og:url" content="http://example.com/2025/03/19/git%E6%9C%AC%E5%9C%B0%E7%89%88%E6%9C%AC%E5%9B%9E%E9%80%80/index.html">
 <meta property="og:site_name" content="刘卓明的个人博客">
-<meta property="og:description" content="这是一个用于测试的的demo">
+<meta property="og:description" content="因为本人在今天写博客的时候不慎将远程的东西全部覆盖到本地了，然后本地有一些写在gitignore中的文件以及文件夹就都没了，吓了一跳，于是乎就想着怎么把本地版本回退到正常的版本，于是乎就找到了git相关的一些命令。">
 <meta property="og:locale" content="zh_CN">
-<meta property="og:image" content="http://example.com/images/test.jpg">
-<meta property="article:published_time" content="2025-03-13T12:03:37.000Z">
-<meta property="article:modified_time" content="2025-03-19T07:55:14.185Z">
+<meta property="article:published_time" content="2025-03-19T08:11:47.000Z">
+<meta property="article:modified_time" content="2025-03-19T08:34:04.782Z">
 <meta property="article:author" content="Zhuoming Liu">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:image" content="http://example.com/images/test.jpg">
   
   
   
-  <title>demo - 刘卓明的个人博客</title>
+  <title>git本地版本回退 - 刘卓明的个人博客</title>
 
   <link  rel="stylesheet" href="https://lib.baomitu.com/twitter-bootstrap/4.6.1/css/bootstrap.min.css" />
 
@@ -189,7 +187,7 @@
       <div class="banner-text text-center fade-in-up">
         <div class="h2">
           
-            <span id="subtitle" data-typed-text="demo"></span>
+            <span id="subtitle" data-typed-text="git本地版本回退"></span>
           
         </div>
 
@@ -205,8 +203,8 @@
     
       <span class="post-meta">
         <i class="iconfont icon-date-fill" aria-hidden="true"></i>
-        <time datetime="2025-03-13 20:03" pubdate>
-          2025年3月13日 晚上
+        <time datetime="2025-03-19 16:11" pubdate>
+          2025年3月19日 下午
         </time>
       </span>
     
@@ -217,7 +215,7 @@
       <span class="post-meta mr-2">
         <i class="iconfont icon-chart"></i>
         
-          229 字
+          261 字
         
       </span>
     
@@ -228,7 +226,7 @@
         
         
         
-          2 分钟
+          3 分钟
         
       </span>
     
@@ -265,7 +263,7 @@
       <div class="container nopadding-x-md" id="board-ctn">
         <div id="board">
           <article class="post-content mx-auto">
-            <h1 id="seo-header">demo</h1>
+            <h1 id="seo-header">git本地版本回退</h1>
             
               <p id="updated-time" class="note note-info" style="">
                 
@@ -278,55 +276,42 @@
             
               <div class="markdown-body">
                 
-                <p>本博客为测试部分的博客 ，用于测试博客的显示效果。</p>
-<p>该博客用hexo开发，主题是fluid，用github pages部署。</p>
-<p>评论模块是用valine实现的，valine的评论都是匿名评论且不需要登陆。也尝试了giscus，但是giscus的评论功能需要登陆github，比较麻烦，所以还是用了valine。不过已经设置了可选评论风格，感觉技术类文章就可以用 giscus了。补充，可能考虑用valine的改进版本waline。</p>
-<h2 id="测试图片"><a href="#测试图片" class="headerlink" title="测试图片"></a>测试图片</h2><p><img src="/../images/test.jpg" srcset="/img/loading.gif" lazyload alt="图片"></p>
-<h2 id="测试代码块"><a href="#测试代码块" class="headerlink" title="测试代码块"></a>测试代码块</h2><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs python"><span class="hljs-keyword">import</span> numpy <span class="hljs-keyword">as</span> np<br></code></pre></td></tr></table></figure>
+                <h2 id="1-默认的-git-reflog-输出"><a href="#1-默认的-git-reflog-输出" class="headerlink" title="1. 默认的 git reflog 输出"></a>1. 默认的 git reflog 输出</h2><p>直接运行命令：</p>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs Shell">import numpy as np<br></code></pre></td></tr></table></figure>
 
-<h2 id="测试数学公式"><a href="#测试数学公式" class="headerlink" title="测试数学公式"></a>测试数学公式</h2><p>$$<br>\sum_{i&#x3D;1}^{n}i^2 &#x3D; \frac{n(n+1)(2n+1)}{6}<br>$$</p>
-<h2 id="测试引用"><a href="#测试引用" class="headerlink" title="测试引用"></a>测试引用</h2><blockquote>
-<p>这是引用的内容</p>
-</blockquote>
-<h2 id="测试表格"><a href="#测试表格" class="headerlink" title="测试表格"></a>测试表格</h2><table>
-<thead>
-<tr>
-<th>姓名</th>
-<th>年龄</th>
-<th>性别</th>
-</tr>
-</thead>
-<tbody><tr>
-<td>张三</td>
-<td>18</td>
-<td>男</td>
-</tr>
-<tr>
-<td>李四</td>
-<td>19</td>
-<td>女</td>
-</tr>
-<tr>
-<td>王五</td>
-<td>20</td>
-<td>男</td>
-</tr>
-<tr>
-<td>赵六</td>
-<td>21</td>
-<td>女</td>
-</tr>
-</tbody></table>
-<h2 id="测试链接"><a href="#测试链接" class="headerlink" title="测试链接"></a>测试链接</h2><p><a target="_blank" rel="noopener" href="https://www.baidu.com/">百度</a></p>
-<h2 id="测试列表"><a href="#测试列表" class="headerlink" title="测试列表"></a>测试列表</h2><ul>
-<li>列表1</li>
-<li>列表2</li>
-<li>列表3</li>
+<p>输出示例：</p>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><code class="hljs Shell">abc1234 (HEAD -&gt; main) HEAD@&#123;0&#125;: pull origin main: Fast-forward<br>def5678 HEAD@&#123;1&#125;: commit: 修复登录页面样式<br>ghi9012 HEAD@&#123;2&#125;: reset: moving to HEAD~1<br></code></pre></td></tr></table></figure>
+
+<ul>
+<li>时间信息：默认不直接显示时间，但可以通过 HEAD@{n} 的时间引用（如 HEAD@{5.minutes.ago}）间接表示。</li>
 </ul>
-<h2 id="测试分割线"><a href="#测试分割线" class="headerlink" title="测试分割线"></a>测试分割线</h2><hr>
-<h2 id="测试转义字符"><a href="#测试转义字符" class="headerlink" title="测试转义字符"></a>测试转义字符</h2><p><em>斜体</em></p>
-<p><strong>粗体</strong></p>
-<p><del>删除线</del></p>
+<h2 id="2-显示完整的时间戳"><a href="#2-显示完整的时间戳" class="headerlink" title="2.显示完整的时间戳"></a>2.显示完整的时间戳</h2><figure class="highlight routeros"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs routeros">git reflog <span class="hljs-attribute">--date</span>=iso<br></code></pre></td></tr></table></figure>
+
+<p>输出示例：</p>
+<figure class="highlight apache"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><code class="hljs apache"><span class="hljs-attribute">abc1234</span> (HEAD -&gt; main) HEAD@&#123;<span class="hljs-number">2023</span>-<span class="hljs-number">10</span>-<span class="hljs-number">01</span> <span class="hljs-number">15</span>:<span class="hljs-number">30</span>:<span class="hljs-number">00</span> +<span class="hljs-number">0800</span>&#125;: pull origin main<br><span class="hljs-attribute">def5678</span> HEAD@&#123;<span class="hljs-number">2023</span>-<span class="hljs-number">10</span>-<span class="hljs-number">01</span> <span class="hljs-number">14</span>:<span class="hljs-number">20</span>:<span class="hljs-number">00</span> +<span class="hljs-number">0800</span>&#125;: commit: 修复登录页面样<br></code></pre></td></tr></table></figure>
+
+<h2 id="x20-3-其他时间格式"><a href="#x20-3-其他时间格式" class="headerlink" title="&#x20;3. 其他时间格式"></a>&#x20;3. 其他时间格式</h2><ul>
+<li><p>–date&#x3D;relative：显示相对时间（如「2 hours ago」）</p>
+</li>
+<li><p>–date&#x3D;local：本地时间格式</p>
+</li>
+<li><p>–date&#x3D;unix：Unix 时间戳<br>示例：</p>
+</li>
+</ul>
+<figure class="highlight routeros"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs routeros">git reflog <span class="hljs-attribute">--date</span>=relative<br></code></pre></td></tr></table></figure>
+
+<p>输出：</p>
+<figure class="highlight angelscript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><code class="hljs angelscript">abc1234 (HEAD -&gt; main) <span class="hljs-symbol">HEAD@</span>&#123;<span class="hljs-number">5</span> minutes ago&#125;: pull origin main<br>def5678 <span class="hljs-symbol">HEAD@</span>&#123;<span class="hljs-number">2</span> hours ago&#125;: commit: 修复登录页面样式<br></code></pre></td></tr></table></figure>
+
+<h2 id="4-关键点"><a href="#4-关键点" class="headerlink" title="4. 关键点"></a>4. 关键点</h2><ul>
+<li><p>时间范围：git reflog 默认保留 90 天内的操作记录（可通过配置调整）。</p>
+</li>
+<li><p>恢复依据：通过时间戳或 HEAD@{n} 定位到误操作前的提交，然后回退：</p>
+<figure class="highlight pgsql"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><code class="hljs pgsql">git <span class="hljs-keyword">reset</span> <span class="hljs-comment">--hard HEAD@&#123;5.min</span><br># 或者：<br>git <span class="hljs-keyword">reset</span> <span class="hljs-comment">--hard abc1234</span><br></code></pre></td></tr></table></figure>
+</li>
+<li><p>退出git reflog界面：按q即可</p>
+</li>
+</ul>
 
                 
               </div>
@@ -334,27 +319,6 @@
             <hr/>
             <div>
               <div class="post-metas my-3">
-  
-    <div class="post-meta mr-3 d-flex align-items-center">
-      <i class="iconfont icon-category"></i>
-      
-
-<span class="category-chains">
-  
-  
-    
-      <span class="category-chain">
-        
-  <a href="/categories/%E5%BC%80%E5%8F%91%E7%BB%8F%E9%AA%8C/" class="category-chain-item">开发经验</a>
-  
-  
-
-      </span>
-    
-  
-</span>
-
-    </div>
   
   
 </div>
@@ -367,15 +331,15 @@
                   <article class="post-prev col-6">
                     
                     
-                      <a href="/2025/03/14/some-share/" title="some share">
-                        <i class="iconfont icon-arrowleft"></i>
-                        <span class="hidden-mobile">some share</span>
-                        <span class="visible-mobile">上一篇</span>
-                      </a>
-                    
                   </article>
                   <article class="post-next col-6">
                     
+                    
+                      <a href="/2025/03/19/%E5%85%B3%E4%BA%8E%E5%AD%A6%E7%94%9F%E4%BC%98%E6%83%A0/" title="关于学生优惠">
+                        <span class="hidden-mobile">关于学生优惠</span>
+                        <span class="visible-mobile">下一篇</span>
+                        <i class="iconfont icon-arrowright"></i>
+                      </a>
                     
                   </article>
                 </div>
@@ -460,12 +424,6 @@
 
 
   
-
-
-  
-  
-
-
 
 
 
@@ -658,49 +616,6 @@
 
 
   <script>Fluid.plugins.imageCaption();</script>
-
-  
-      <script>
-        if (!window.MathJax) {
-          window.MathJax = {
-            tex    : {
-              inlineMath: { '[+]': [['$', '$']] }
-            },
-            loader : {
-              load: ['ui/lazy']
-            },
-            options: {
-              renderActions: {
-                insertedScript: [200, () => {
-                  document.querySelectorAll('mjx-container').forEach(node => {
-                    let target = node.parentNode;
-                    if (target.nodeName.toLowerCase() === 'li') {
-                      target.parentNode.classList.add('has-jax');
-                    }
-                  });
-                }, '', false]
-              }
-            }
-          };
-        } else {
-          MathJax.startup.document.state(0);
-          MathJax.texReset();
-          MathJax.typeset();
-          MathJax.typesetPromise();
-        }
-
-        Fluid.events.registerRefreshCallback(function() {
-          if ('MathJax' in window && MathJax.startup.document && typeof MathJax.startup.document.state === 'function') {
-            MathJax.startup.document.state(0);
-            MathJax.texReset();
-            MathJax.typeset();
-            MathJax.typesetPromise();
-          }
-        });
-      </script>
-    
-
-  <script  src="https://lib.baomitu.com/mathjax/3.2.2/es5/tex-mml-chtml.js" ></script>
 
   <script  src="/js/local-search.js" ></script>
 
