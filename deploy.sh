@@ -1,7 +1,6 @@
 #!/bin/bash
 hexo clean
 hexo generate
-git add .
 default_msg="更新内容"
 
 # 获取用户输入
