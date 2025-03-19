@@ -1,3 +1,4 @@
+---
 title: git本地版本回退
 toc: true
 comments: valine
@@ -5,8 +6,8 @@ math: false
 hide: false
 excerpt: '因为本人在今天写博客的时候不慎将远程的东西全部覆盖到本地了，然后本地有一些写在gitignore中的文件以及文件夹就都没了，吓了一跳，于是乎就想着怎么把本地版本回退到正常的版本，于是乎就找到了git相关的一些命令。'
 date: 2025-03-19 16:11:47
-categories:
------------
+categories: 开发经验
+---
 
 ## 1. 默认的 git reflog 输出
 
