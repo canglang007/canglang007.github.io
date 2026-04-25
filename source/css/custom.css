@@ -1,0 +1,51 @@
+/* 自定义滚动条 */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: #c4c6c9;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #a6a6a6;
+}
+
+/* 链接悬停效果 */
+a {
+  transition: all 0.3s ease;
+}
+
+/* 文章卡片悬停效果 */
+.index-card {
+  transition: all 0.3s ease;
+  border-radius: 8px;
+  overflow: hidden;
+}
+.index-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 24px rgba(0,0,0,0.08);
+}
+
+/* 自定义文章正文样式 */
+.markdown-body h2 {
+  padding-bottom: 8px;
+  border-bottom: 2px solid #eaecef;
+}
+.markdown-body h2:before {
+  content: "# ";
+  color: #2f4154;
+  font-weight: bold;
+}
+.markdown-body h3:before {
+  content: "▸ ";
+  color: #2f4154;
+}
+
+/* Gitalk 评论区域样式 */
+#gitalk-container {
+  margin-top: 32px;
+  padding-top: 16px;
+}

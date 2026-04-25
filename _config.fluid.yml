@@ -1,3 +1,8 @@
+favicon: /img/icon.jpg
+apple_touch_icon: /img/icon.jpg
+
+custom_css: /css/custom.css
+
 navbar:
   blog_title: "canglang007的博客"
 
@@ -17,6 +22,23 @@ tag:
 
 page:
   banner_img: /img/bg.jpg
+
+page404:
+  title: "页面走丢了 🌙"
+  subtitle: "别担心，5秒后自动回到首页"
+  banner_img: /img/bg.jpg
+
+post:
+  comments:
+    enable: true
+    type: gitalk
+
+gitalk:
+  clientID:
+  clientSecret:
+  repo: canglang007.github.io
+  owner: canglang007
+  admin: ['canglang007']
 
 about:
   banner_img: /img/bg.jpg
