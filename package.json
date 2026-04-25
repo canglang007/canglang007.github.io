@@ -2,6 +2,9 @@
   "name": "my-blog",
   "version": "1.0.0",
   "description": "Personal blog built with Hexo",
+  "hexo": {
+    "version": "8.1.1"
+  },
   "main": "index.js",
   "scripts": {
     "build": "hexo generate",
@@ -16,7 +19,10 @@
   "author": "canglang007",
   "license": "MIT",
   "dependencies": {
+    "@adobe/css-tools": "^4.4.4",
     "hexo": "^8.1.1",
+    "hexo-generator-index": "^4.0.0",
+    "hexo-pagination": "^4.0.0",
     "hexo-theme-fluid": "^1.9.0"
   },
   "engines": {
