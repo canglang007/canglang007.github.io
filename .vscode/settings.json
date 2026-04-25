@@ -1,0 +1,7 @@
+{
+  "git.repositoryScanIgnoredFolders": [
+    ".deploy_git",
+    "node_modules",
+    ".git"
+  ]
+}
