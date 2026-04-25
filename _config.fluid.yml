@@ -34,8 +34,8 @@ post:
     type: gitalk
 
 gitalk:
-  clientID:
-  clientSecret:
+  clientID: Ov23liShwxjFIHsaRzPf
+  clientSecret: 40334576ff13578bdcb17c33cfaa074237a44e46
   repo: canglang007.github.io
   owner: canglang007
   admin: ['canglang007']
