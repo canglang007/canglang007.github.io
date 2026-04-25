@@ -2,6 +2,8 @@
   "git.repositoryScanIgnoredFolders": [
     ".deploy_git",
     "node_modules",
-    ".git"
-  ]
+    ".git",
+    "themes"
+  ],
+  "git.repositoryScanMaxDepth": 2
 }
