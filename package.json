@@ -23,6 +23,9 @@
     "hexo": "^8.1.1",
     "hexo-generator-index": "^4.0.0",
     "hexo-pagination": "^4.0.0",
+    "hexo-renderer-ejs": "^2.0.0",
+    "hexo-renderer-marked": "^7.0.1",
+    "hexo-renderer-stylus": "^3.0.1",
     "hexo-theme-fluid": "^1.9.0"
   },
   "engines": {
