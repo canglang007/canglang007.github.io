@@ -16,7 +16,7 @@
   "author": "canglang007",
   "license": "MIT",
   "dependencies": {
-    "hexo": "^6.0.0",
+    "hexo": "^8.1.1",
     "hexo-theme-fluid": "^1.9.0"
   },
   "engines": {
