@@ -1,7 +1,21 @@
 # Hexo
 public/
-db.json
 .deploy_git/
+db.json
+
+# 构建产物（由 hexo generate 生成）
+2025/
+about/index.html
+archives/
+categories/
+css/
+index.html
+js/
+links/
+local-search.xml
+tags/
+xml/
+404.html
 
 # Dependencies
 node_modules/
