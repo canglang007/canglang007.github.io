@@ -14,6 +14,6 @@ about:
   icons:
     - { class: "iconfont icon-github-fill", link: "https://github.com/canglang007", tip: "GitHub" }
     - { class: "iconfont icon-wechat-fill", qrcode: "/img/WeChat.png" }
-    - { class: "iconfont icon-qq-fill", link: "https://qm.qq.com/cgi-bin/qm/qr?k=2097254505", tip: "QQ" }
+    - { class: "iconfont icon-qq-fill", qrcode: "/img/QQ.png" , tip: "QQ" }
     - { class: "iconfont icon-zhihu-fill", link: "https://www.zhihu.com/people/canglang007", tip: "知乎" }
     - { class: "iconfont icon-mail", link: "mailto:2097254505@qq.com", tip: "邮箱" }
