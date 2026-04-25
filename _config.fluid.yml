@@ -6,6 +6,18 @@ index:
   slogan:
     text: "非淡泊无以明志，非宁静无以致远"
 
+archive:
+  banner_img: /img/bg.jpg
+
+category:
+  banner_img: /img/bg.jpg
+
+tag:
+  banner_img: /img/bg.jpg
+
+page:
+  banner_img: /img/bg.jpg
+
 about:
   banner_img: /img/bg.jpg
   avatar: /img/avatar.jpg
