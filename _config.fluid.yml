@@ -51,3 +51,4 @@ about:
     - { class: "iconfont icon-qq-fill", qrcode: "/img/QQ.jpg" , tip: "QQ" }
     - { class: "iconfont icon-zhihu-fill", link: "https://www.zhihu.com/people/canglang007", tip: "知乎" }
     - { class: "iconfont icon-mail", link: "mailto:2097254505@qq.com", tip: "邮箱" }
+    - { class: "iconfont icon-linkedin-fill", link: "https://www.linkedin.com/in/zhuoming-liu-b49953381/?isSelfProfile=true", tip: "领英"}
