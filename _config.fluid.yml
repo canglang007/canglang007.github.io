@@ -29,6 +29,18 @@ page404:
   banner_img: /img/bg.jpg
 
 post:
+  meta:
+    date:
+      enable: true
+      format: "YYYY年MM月DD日"
+    wordcount:
+      enable: true
+    min2read:
+      enable: true
+  updated:
+    enable: true
+    content: "本文最后更新于"
+    relative: false
   comments:
     enable: true
     type: gitalk

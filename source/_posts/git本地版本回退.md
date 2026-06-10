@@ -15,7 +15,7 @@ tags: [Git, 版本控制]
 直接运行命令：
 
 ```Shell
-import numpy as np
+git reflog
 ```
 
 输出示例：
@@ -67,8 +67,8 @@ def5678 HEAD@{2 hours ago}: commit: 修复登录页面样式
 
 * 恢复依据：通过时间戳或 HEAD@{n} 定位到误操作前的提交，然后回退：
 
-  ```
-  git reset --hard HEAD@{5.min
+  ```bash
+  git reset --hard HEAD@{5.minutes.ago}
   # 或者：
   git reset --hard abc1234
   ```
